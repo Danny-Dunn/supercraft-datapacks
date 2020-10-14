@@ -1,0 +1,11 @@
+{
+  "group": "woolsmelts",
+  "type": "minecraft:smelting",
+
+  "ingredient": {
+    "item": "minecraft:lime_wool"
+  },
+  "result": "minecraft:lime_dye",
+  "experience": 0.5,
+  "cookingtime": 50
+  }

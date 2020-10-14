@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:grass"
+  },
+  "result": "minecraft:lime_dye",
+  "experience": 0.25,
+  "cookingtime": 200
+  }

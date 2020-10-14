@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:spawner run function boomber:mineable_spawner/raycast/check
+execute as @s[distance=..5.5] if score #raycast bb.ms.var matches 0 positioned ^ ^ ^0.1 run function boomber:mineable_spawner/raycast/run

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " #",
+      "DS"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:sand"
+      },
+      "D": {
+          "item": "minecraft:dirt"
+      },
+      "S": {
+          "item": "minecraft:soul_sand"
+      }
+  },
+  "result": {
+      "item": "minecraft:soul_soil",
+      "count": 2
+  }
+}

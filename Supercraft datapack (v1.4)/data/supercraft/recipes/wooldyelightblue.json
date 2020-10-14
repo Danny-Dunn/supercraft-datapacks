@@ -1,0 +1,11 @@
+{
+  "group": "woolsmelts",
+  "type": "minecraft:smelting",
+
+  "ingredient": {
+    "item": "minecraft:light_blue_wool"
+  },
+  "result": "minecraft:light_blue_dye",
+  "experience": 0.5,
+  "cookingtime": 50
+  }
