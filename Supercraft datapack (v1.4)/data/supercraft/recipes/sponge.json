@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "SYS",
+      "YGY",
+      "SYS"
+  ],
+  "key": {
+      "S": {
+          "item": "minecraft:stick"
+      },
+      "Y": {
+          "item": "minecraft:yellow_dye"
+      },
+      "G": {
+          "item": "minecraft:grass_block"
+      }
+  },
+  "result": {
+      "item": "minecraft:sponge",
+      "count": 2
+  }
+}
