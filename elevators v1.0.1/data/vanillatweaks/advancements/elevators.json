@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magenta_wool"
+		},
+		"title": "Elevators            ",
+		"description": ["",{"text":"Drop","color":"green"},{"text":" an ender pearl above a wool block to make it into an elevator.\n","color":"gold"},{"text":"Jump","color":"green"},{"text":" on it to warp onto an elevator of the same color directly above.\n","color":"gold"},{"text":"Crouch","color":"green"},{"text":" on it to warp onto an elevator of the same color directly below.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
