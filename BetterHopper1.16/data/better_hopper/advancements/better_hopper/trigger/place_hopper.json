@@ -1,0 +1,14 @@
+{
+	"rewards": {"function":"better_hopper:place_hopper/place_hopper"},
+    "criteria": {
+        "place_spawner": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+					"item": "minecraft:hopper",
+					"nbt": "{\"display\":{\"Name\": \"{\\\"text\\\":\\\"Better\\\"}\"}}"
+				}
+            }
+        }
+    }
+}
