@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:coal_block"
-  },
-  "result": "minecraft:diamond",
-  "experience": 3,
-  "cookingtime": 20000
-}
