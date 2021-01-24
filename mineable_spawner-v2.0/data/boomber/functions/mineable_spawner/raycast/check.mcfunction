@@ -1,1 +1,0 @@
-execute unless entity @e[tag=global.ignore, distance=..0.8] run function boomber:mineable_spawner/raycast/found
