@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"title": "Larger Phantoms",
+		"description": ["",{"text":"Makes naturally spawning phantoms larger the longer you do not sleep.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

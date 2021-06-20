@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        " &#",
+        "$  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "&": {
+            "item": "minecraft:redstone_dust"
+        },
+        "$": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

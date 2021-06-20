@@ -15,11 +15,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:enchanting_table"
+						"blocks": ["minecraft:enchanting_table"]
 					}
 				},
 				"item": {
-					"item": "minecraft:glass_bottle"
+					"items": ["minecraft:glass_bottle"]
 				},
 				"player": [
 					{

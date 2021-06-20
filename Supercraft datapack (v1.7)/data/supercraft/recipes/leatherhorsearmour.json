@@ -1,0 +1,21 @@
+{
+  "group": "horsearmour",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  l",
+    "lwl",
+    "lll"
+  ],
+  "key": {
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "w": {
+      "item": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_horse_armor",
+    "count": 1
+  }
+}
