@@ -1,1 +1,0 @@
-schedule function durability_ping:check_damage 1t

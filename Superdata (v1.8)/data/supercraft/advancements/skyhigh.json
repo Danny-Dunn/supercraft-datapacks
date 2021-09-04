@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "title": "Sky High!",
+    "description": "Reach Build Height Limit",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skyhigh": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "x": {
+              "min": -3000000,
+              "max": 3000000
+            },
+            "y": {
+              "min": 447,
+              "max": 696969
+            },
+            "z": {
+              "min": -3000000,
+              "max": 3000000
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:adventure/root"
+}
