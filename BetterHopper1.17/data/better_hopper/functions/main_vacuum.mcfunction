@@ -1,0 +1,4 @@
+execute if entity @s[tag=bh_hopper_upgrade_gold] if block ~ ~-1 ~ minecraft:hopper[enabled=true] if block ~ ~ ~ #better_hopper:lock_hopper run tp @e[type=minecraft:item,distance=0.5..2] ~ ~-0.5 ~
+execute if entity @s[tag=bh_hopper_upgrade_emerald] if block ~ ~-1 ~ minecraft:hopper[enabled=true] if block ~ ~ ~ #better_hopper:lock_hopper run tp @e[type=minecraft:item,distance=0.5..3] ~ ~-0.5 ~
+execute if entity @s[tag=bh_hopper_upgrade_diamond] if block ~ ~-1 ~ minecraft:hopper[enabled=true] if block ~ ~ ~ #better_hopper:lock_hopper run tp @e[type=minecraft:item,distance=0.5..5] ~ ~-0.5 ~
+execute if entity @s[tag=bh_hopper_upgrade_netherite] if block ~ ~-1 ~ minecraft:hopper[enabled=true] if block ~ ~ ~ #better_hopper:lock_hopper run tp @e[type=minecraft:item,distance=0.5..7] ~ ~-0.5 ~

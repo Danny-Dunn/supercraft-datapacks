@@ -1,0 +1,21 @@
+{
+  "group": "horsearmour",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  d",
+    "dwd",
+    "ddd"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "w": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor",
+    "count": 1
+  }
+}

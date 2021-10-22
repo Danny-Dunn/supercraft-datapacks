@@ -1,0 +1,8 @@
+tag @s add bh_hopper_type_filter
+tag @s remove bh_hopper_type_vacuum
+item replace entity @e[type=minecraft:item_frame,tag=bh_hopper_item_frame,distance=..0.5,limit=1] container.0 with minecraft:air
+item replace entity @s armor.head with minecraft:scaffolding
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:ender_eye",Count:1b}}
+
+particle minecraft:happy_villager ~ ~ ~ 0.2 0.2 0.2 0.01 10 normal
+playsound minecraft:block.anvil.use master @a[distance=..5]
