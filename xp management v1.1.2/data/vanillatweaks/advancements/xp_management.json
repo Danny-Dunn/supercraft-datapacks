@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:experience_bottle"
+		},
+		"title": "XP Management       ",
+		"description": ["",{"text":"Right-click","color":"green"},{"text":" an enchanting table with an empty bottle to fill it with some of your XP.\n","color":"gold"},{"text":"Smelt","color":"green"},{"text":" an XP bottle in a furnace to losslessly get your XP back.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

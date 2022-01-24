@@ -1,0 +1,50 @@
+{
+    "condition": "minecraft:alternative",
+	"terms":
+	[
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				
+				"location":
+					{
+						"dimension":"minecraft:overworld",
+						"position":
+						{
+							"y":{"max":-32}
+						}
+					}
+					}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location":
+					{
+						"dimension":"minecraft:the_nether",
+						"position":
+						{
+							"y":{"max":-32}
+						}
+					}
+					}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location":
+				{
+					"dimension":"minecraft:the_end",
+					"position":
+					{
+					"y":{"max":-32}
+					}
+				}
+				}
+		}
+	]
+    
+}

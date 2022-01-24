@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:inverted",
+	"term":
+	{
+		"condition":"minecraft:alternative",
+		"terms":
+		[
+			{
+				"condition": "minecraft:inverted",
+				"term":
+				{
+					"condition":"minecraft:reference",
+					"name":"tou:below"
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term":
+				{
+					"condition":"minecraft:reference",
+					"name":"tou:hold"
+				}
+			}
+		]
+	}
+}

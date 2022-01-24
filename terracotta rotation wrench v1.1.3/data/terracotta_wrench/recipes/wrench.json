@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " g ",
+        " cg",
+        "i  "
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "c": {
+            "item": "minecraft:clay_ball"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}
