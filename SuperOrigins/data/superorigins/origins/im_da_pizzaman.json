@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"superorigins:saturation",
+		"superorigins:no_hunger",
+		"superorigins:less_health",
+		"superorigins:im_da_pizzaman_height"
+	],
+	"icon": "minecraft:milk_bucket",
+	"order": 4,
+	"impact": 1,
+	"name": "Im_da_pizzaman",
+	"description": "Your local pizzaguy! Somehow has infinite pizza supplies."
+}

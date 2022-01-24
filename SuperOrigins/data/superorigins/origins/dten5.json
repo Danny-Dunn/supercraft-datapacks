@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"superorigins:strong",
+		"superorigins:speed",
+		"superorigins:asthma",
+		"superorigins:dten5_height"
+	],
+	"icon": "minecraft:netherite_sword",
+	"order": 2,
+	"impact": 1,
+	"name": "Dten5",
+	"description": "One heckin' Filipino boi."
+}

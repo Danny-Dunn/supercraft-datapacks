@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"superorigins:pug_jump",
+		"superorigins:pug_speed",
+		"superorigins:pug_damage",
+		"superorigins:pug_sounds",
+		"superorigins:mcdonalaid101_height"
+	],
+	"icon": "minecraft:bone",
+	"order": 3,
+	"impact": 1,
+	"name": "Mcdonalaid101",
+	"description": "Average dog enjoyer."
+}

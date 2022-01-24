@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "entity_action": {
+    "type": "origins:spawn_particles",
+    "particle": {
+        "type": "minecraft:campfire_cosy_smoke"
+    },
+    "count": 24,
+    "speed": 0.0,
+    "force": true,
+    "spread": {
+        "x": 0.75,
+        "y": 0.25,
+        "z": 0.75
+    }
+  },
+  "interval": 1,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "superorigins:joy_invisibility"
+  }
+}

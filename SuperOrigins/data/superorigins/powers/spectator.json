@@ -1,0 +1,12 @@
+{
+    "type": "origins:active_self",
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "superorigins:toggle"
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "gamemode spectator"
+    }
+}

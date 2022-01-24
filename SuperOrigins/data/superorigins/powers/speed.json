@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "ZOOM",
+  "description": "You have trained for thousands of years, granting you 25% faster speed.",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.25,
+    "operation": "multiply_base"
+  }
+}

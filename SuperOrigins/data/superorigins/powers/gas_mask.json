@@ -1,0 +1,10 @@
+{
+    "type": "origins:effect_immunity",
+    "name": "Gas Mask",
+    "description": "You have gas mask, making you immune to the hunger, poison and withering effect.",
+    "effects": [
+        "minecraft:hunger",
+        "minecraft:poison",
+        "minecraft:wither"
+    ]
+}

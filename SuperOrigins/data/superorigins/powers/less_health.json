@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Tired",
+  "description": "You are tired of carrying an unlimited supply of pizza on you, leaving you with less health.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -4.0,
+    "operation": "addition"
+  }
+}

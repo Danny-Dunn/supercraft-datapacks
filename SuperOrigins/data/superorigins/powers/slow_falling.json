@@ -1,0 +1,36 @@
+{
+  "type": "apoli:modify_falling",
+  "name": "Slow Falling",
+  "description": "You are a kiwi bird and so you are able to flutter downwards with your wings. However, your wings are tiny and suck so you cant actually fly.",
+  "velocity": 0.01,
+  "take_fall_damage": false,
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:sneaking"
+          },
+          {
+            "type": "origins:fall_flying"
+          }
+        ]
+      },
+      {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:sneaking",
+            "inverted": true
+          },
+          {
+            "type": "origins:fall_flying",
+            "inverted": true
+          }
+        ]
+      }
+    ]
+  }
+}

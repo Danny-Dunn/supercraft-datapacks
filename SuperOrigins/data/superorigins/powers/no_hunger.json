@@ -1,0 +1,10 @@
+{
+    "type": "origins:effect_immunity",
+    "name": "Infinite Pizza II",
+    "description": "You are immune to hunger, withering, and poison.",
+    "effects": [
+        "minecraft:hunger",
+        "minecraft:poison",
+        "minecraft:wither"
+    ]
+}

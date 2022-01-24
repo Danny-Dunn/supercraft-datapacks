@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"origins:climbing",
+		"origins:master_of_webs",
+		"origins:carnivore",
+		"origins:fragile",
+		"origins:arthropod",
+		"superorigins:ryry2839_height"
+	],
+	"icon": "minecraft:string",
+	"order": 7,
+	"impact": 3,
+	"name": "ryry2839",
+	"description": "Spiderman, Spiderman, does whatever a spider can..."
+}

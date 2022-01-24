@@ -1,0 +1,23 @@
+{
+    "type": "origins:multiple",
+
+    "flap": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "playsound entity.wolf.ambient master @a ~ ~ ~ 1 5"
+    },
+    "interval": 120
+    },
+    "hurt": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "playsound entity.wolf.hurt master @a ~ ~ ~ 1 5"
+    },
+    "cooldown": 1
+    },
+    "hidden": true
+}

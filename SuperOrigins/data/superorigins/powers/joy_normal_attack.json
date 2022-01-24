@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Normal Attack",
+  "description": "Perform 5 rapid hits with your sword (+ Attack speed).",
+  "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 1,
+      "operation": "addition"
+  }
+}

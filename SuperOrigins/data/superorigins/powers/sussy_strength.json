@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Sussy Strength",
+  "description": "You are the Impostor from Among Us, giving you knowledge on the art of suspicious murder. (20% extra damage dealt).",
+  "modifier": {
+    "value": 0.2,
+    "operation": "multiply_base"
+  }
+}

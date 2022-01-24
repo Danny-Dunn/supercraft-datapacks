@@ -1,0 +1,44 @@
+{
+  "type": "origins:active_self",
+  "name": "Alternative Sprint",
+  "description": "Press your secondary origins key to cloak yourself in mist for 5 seconds.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+            "duration": 100,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false,
+            "effect": "minecraft:speed",
+            "amplifier": 1
+        }
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "superorigins:joy_invisibility",
+        "source": ""
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 100,
+        "action": {
+          "type": "origins:revoke_power",
+          "power": "superorigins:joy_invisibility",
+          "source": ""
+        }
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "cooldown": 300,
+  "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+  "bar_index": 7
+  }
+}

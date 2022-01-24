@@ -1,0 +1,15 @@
+{
+    "type": "origins:active_self",
+    "hidden": true,
+    "entity_action": {
+        "type": "origins:play_sound",
+        "name": "amogus",
+        "description": "sus",
+        "hidden": false,
+        "sound": "minecraft:entity.ender_dragon.flap",
+        "volume": 1,
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    }
+}

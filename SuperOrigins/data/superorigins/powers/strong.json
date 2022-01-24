@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Strong Fists",
+  "description": "Za Hando! 25% more damage dealt.",
+  "modifier": {
+    "value": 0.25,
+    "operation": "multiply_base"
+  }
+}

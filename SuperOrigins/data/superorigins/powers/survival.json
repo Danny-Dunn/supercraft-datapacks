@@ -1,0 +1,13 @@
+{
+    "type": "origins:active_self",
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "superorigins:toggle",
+        "inverted": true
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "gamemode survival"
+    }
+}

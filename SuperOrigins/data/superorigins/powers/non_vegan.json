@@ -1,0 +1,35 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Non-vegan",
+  "description": "You are a Kiwi (Bird/Fruit) and can't your own kind.",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:meat"
+            }
+          },
+          {
+            "type": "origins:meat"
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}
