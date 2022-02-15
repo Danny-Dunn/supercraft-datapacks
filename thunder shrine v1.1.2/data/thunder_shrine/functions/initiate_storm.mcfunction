@@ -1,6 +1,6 @@
 # Starts the thunder storm and removes the nether star
 
-kill @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:64b}}]
 
 particle minecraft:flame ~ ~ ~ 0 0 0 0.5 100
 playsound minecraft:item.firecharge.use master @a[distance=..5] ~ ~ ~ 1.0 0.0 1.0
