@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"place_beacon": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:beacon"
+			}
+		}
+	},
+	"rewards": {
+		"function": "bbradius:activate_beacon"
+	}
+}
