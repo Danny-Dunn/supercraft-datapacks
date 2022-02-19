@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"superorigins:elytra",
+		"superorigins:no_chestplate_helmet",
+		"superorigins:bomb",
+		"superorigins:bomb_2",
+		"superorigins:pee",
+		"superorigins:4tank_height"
+	],
+	"icon": "minecraft:gunpowder",
+	"order": 5,
+	"impact": 3,
+	"name": "4Tank",
+	"description": "You are a SUS terrorist, allowing you to use a mini jet strapped to your back as well as detonate bombs."
+}

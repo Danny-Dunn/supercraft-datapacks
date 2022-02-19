@@ -1,0 +1,6 @@
+{
+  "type": "origins:elytra_flight",
+  "render_elytra": false,
+  "name": "Mini Jet",
+  "description": "You have an invisible mini jet strapped to your back, allowing you to glide around. However, this prevents you from using chestplates over your jet."
+}

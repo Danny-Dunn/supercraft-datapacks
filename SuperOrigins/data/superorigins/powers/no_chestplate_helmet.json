@@ -1,0 +1,15 @@
+{
+  "type": "origins:restrict_armor",
+  "name": "Goggles",
+  "description": "To fly, you need goggles on at all times so you can't wear a helmet.",
+  "head": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "chest": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  }
+}
