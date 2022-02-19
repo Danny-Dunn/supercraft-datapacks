@@ -1,9 +1,10 @@
 {
 	"powers": [
 		"superorigins:blj",
-		"superorigins:phasing_new",
+		"superorigins:phasing",
 		"superorigins:phasing_overlay",
-		"superorigins:40f4_height"
+		"superorigins:40f4_height",
+		"superorigins:magnet"
 	],
 	"icon": "minecraft:end_crystal",
 	"order": 5,

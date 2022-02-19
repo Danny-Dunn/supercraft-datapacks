@@ -3,7 +3,7 @@
   "name": "Infinite Pizza I",
   "description": "You have infinite pizza and cannot lose hunger.",
   "modifier": {
-    "value": -1,
-    "operation": "multiply_base"
+    "value": 2000,
+    "operation": "multiply_total"
   }
 }

@@ -1,0 +1,68 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "no_slowdown": {
+    "type": "origins:simple"
+  },
+  "climbing": {
+    "type": "origins:climbing",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:in_block_anywhere",
+          "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:cobwebs"
+          }
+        },
+        {
+          "type": "origins:power_active",
+          "power": "*:climbing_toggle"
+        }
+      ]
+    },
+    "hold_condition": {
+      "type": "origins:power_active",
+      "power": "*:*_climbing"
+    }
+  },
+  "sense": {
+    "type": "origins:entity_glow",
+    "entity_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:in_block_anywhere",
+          "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:cobwebs"
+          }
+        },
+        {
+          "type": "origins:entity_group",
+          "group": "arthropod",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "web_crafting": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins:master_of_webs/web_crafting",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:string"
+        },
+        {
+          "item": "minecraft:string"
+        }
+      ],
+      "result": {
+        "item": "minecraft:cobweb"
+      }
+    }
+  }
+}

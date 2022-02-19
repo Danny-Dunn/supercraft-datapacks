@@ -1,10 +1,11 @@
 {
 	"powers": [
 		"origins:climbing",
-		"origins:master_of_webs",
+		"superorigins:master_of_webs",
 		"origins:carnivore",
 		"origins:fragile",
 		"origins:arthropod",
+		"superorigins:web_slinger",
 		"superorigins:ryry2839_height"
 	],
 	"icon": "minecraft:string",

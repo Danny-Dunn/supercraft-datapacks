@@ -2,11 +2,11 @@
     "type": "origins:active_self",
     "name": "BLJ",
     "description": "Press your primary origins button to perform a BLJ allowing you to run at an insane speed.",
-    "cooldown": 600,
+    "cooldown": 500,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-		"bar_index": 17
+		"bar_index": 16
     },
     "key": {
         "key": "key.origins.primary_active",
@@ -20,7 +20,7 @@
             "show_particles": false,
             "show_icon": false,
             "effect": "minecraft:speed",
-            "amplifier": 20
+            "amplifier": 25
         }
     }
 }
