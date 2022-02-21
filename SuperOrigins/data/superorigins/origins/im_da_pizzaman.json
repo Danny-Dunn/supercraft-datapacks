@@ -1,8 +1,9 @@
 {
 	"powers": [
 		"superorigins:infinite_pizza",
+		"superorigins:infinite_pizza_absorption",
 		"superorigins:no_hunger",
-		"superorigins:saturation",
+		"superorigins:no_food",
 		"superorigins:less_health",
 		"superorigins:im_da_pizzaman_height"
 	],

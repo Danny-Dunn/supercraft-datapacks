@@ -2,7 +2,7 @@
   "type": "origins:fire_projectile",
   "name": "Quick Vent",
   "description": "Become one with sus and vent everywhere by pressing the primary origins button.",
-  "cooldown": 200,
+  "cooldown": 400,
   "hud_render": {
     "sprite_location": "origins:textures/gui/resource_bar.png",
     "bar_index": 6

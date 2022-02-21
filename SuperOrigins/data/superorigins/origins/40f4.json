@@ -3,8 +3,7 @@
 		"superorigins:blj",
 		"superorigins:phasing",
 		"superorigins:phasing_overlay",
-		"superorigins:40f4_height",
-		"superorigins:magnet"
+		"superorigins:40f4_height"
 	],
 	"icon": "minecraft:end_crystal",
 	"order": 5,

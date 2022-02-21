@@ -4,6 +4,6 @@
   "description": "Za Hando! 25% more damage dealt.",
   "modifier": {
     "value": 0.25,
-    "operation": "multiply_base"
+    "operation": "multiply_total"
   }
 }

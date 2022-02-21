@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "name": "Unhealthy Diet",
+    "description": "After eating pizza for so long, your body immediatly rejects any other food that you attempt to eat."
+}

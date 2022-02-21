@@ -7,22 +7,11 @@
         "interval": 20,
         "exhaustion": 2.0,
         "condition": {
-            "type": "origins:and",
-            "conditions": [
-                    {
-                    "type": "origins:in_block",
-                    "block_condition": {
-                        "type": "origins:movement_blocking"
-                    }
-                    
-                },
-                {
-                    "type": "origins:power_active",
-                    "power": "superorigins:phasing_new_phasing"
-                }
-                
-                        ]
-                    }
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:movement_blocking"
+            }
+        }
     },
     "phasing": {
         "type": "origins:phasing",
@@ -31,7 +20,7 @@
         "view_distance": 10,
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "origins:unphasable"
+            "tag": "superorigins:unphasable_2"
         },
         "phase_down_condition": {
             "type": "origins:constant",

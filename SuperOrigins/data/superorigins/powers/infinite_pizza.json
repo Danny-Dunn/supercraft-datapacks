@@ -2,7 +2,7 @@
   "type": "origins:active_self",
   "name": "Infinite Pizza I",
   "description": "You can press your primary origins button to eat a box of pizza and regenerate all of your hunger (no saturation), as well as gaining the absorption effect for 5 seconds.",
-  "cooldown": 50,
+  "cooldown": 700,
   "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
@@ -15,5 +15,5 @@
     "type": "origins:feed",
     "food": 20,
     "saturation": 0
-}
+  }
 }

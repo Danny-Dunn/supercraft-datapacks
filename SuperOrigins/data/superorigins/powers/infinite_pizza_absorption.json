@@ -1,0 +1,19 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 700,
+  "hud_render": {
+      "should_render": false
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+        "effect": "minecraft:absorption",
+        "duration": 100,
+        "amplifier": 0
+    }
+  },
+  "hidden": true
+}

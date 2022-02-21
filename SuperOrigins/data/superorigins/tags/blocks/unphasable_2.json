@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:barrier",
+    "minecraft:command_block",
+    "minecraft:bedrock",
+    "minecraft:crying_obsidian",
+    "minecraft:obsidian",
+    "minecraft:enchanting_table",
+    "soul_sand",
+		"dirt_path",
+		"farmland",
+		"#slabs",
+		"#stairs",
+		"#beds",
+		"cake",
+		"#candle_cakes",
+		"#candles",
+		"#carpets",
+		"#cauldrons",
+		"#fence_gates",
+		"#fences",
+		"#flower_pots",
+		"snow",
+		"#rails",
+		"end_portal_frame",
+		"chest",
+		"ender_chest",
+		"trapped_chest",
+		"#trapdoors",
+		"#campfires"
+  ]
+}
