@@ -7,10 +7,19 @@
         "interval": 20,
         "exhaustion": 2.0,
         "condition": {
-            "type": "origins:in_block",
-            "block_condition": {
-                "type": "origins:movement_blocking"
-            }
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:movement_blocking"
+                    }
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "superorigins:phasing_phasing"
+                }
+            ]
         }
     },
     "phasing": {
