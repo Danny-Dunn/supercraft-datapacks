@@ -15,7 +15,7 @@
             },
             {
                 "type": "origins:explode",
-                "power": 3,
+                "power": 6,
                 "destruction_type": "break",
                 "damage_self": false,
                 "create_fire": true
@@ -26,7 +26,7 @@
             }
         ]
     },
-    "cooldown": 900,
+    "cooldown": 400,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/resource_bar.png",

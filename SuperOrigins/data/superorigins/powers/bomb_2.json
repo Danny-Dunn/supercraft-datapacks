@@ -13,7 +13,7 @@
             },
             {
                 "type": "origins:explode",
-                "power": 20,
+                "power": 30,
                 "destruction_type": "break",
                 "damage_self": false,
                 "create_fire": true
@@ -24,7 +24,7 @@
             }
         ]
     },
-    "cooldown": 900,
+    "cooldown": 400,
     "hud_render": {
         "should_render": false
     },
