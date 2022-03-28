@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Terrible Warrior",
+  "description": "While you are great at mining, you aren't so good at hand-to-hand combat. (-25% Damage dealt with swords and axes).",
+  "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "superorigins:terrible_warrior_items"
+      }
+  },
+  "modifier": {
+      "operation": "multiply_total",
+      "value": -0.25
+  }
+}

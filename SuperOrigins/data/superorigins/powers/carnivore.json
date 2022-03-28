@@ -1,8 +1,10 @@
 {
     "type": "origins:modify_food",
-    "hidden": true,
+    "name": "Carnivore",
+    "description": "You will only gain hunger points from eating meat.",
     "item_condition": {
-        "type": "origins:food"
+        "type": "origins:meat",
+        "inverted": true
     },
     "food_modifier": {
         "name": "Increased food points",

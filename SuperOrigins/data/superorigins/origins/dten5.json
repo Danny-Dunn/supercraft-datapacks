@@ -1,13 +1,23 @@
 {
 	"powers": [
-		"superorigins:strong",
-		"superorigins:speed",
-		"superorigins:asthma",
-		"superorigins:dten5_height"
+		"superorigins:dten5_resource",
+		"superorigins:dten5_scale_change",
+		"superorigins:dten5_scale_other",
+		"superorigins:dten5_reach_change",
+		"superorigins:dten5_second_gear",
+		"superorigins:asian",
+		"superorigins:cursed"
 	],
-	"icon": "minecraft:netherite_sword",
+	"icon": "minecraft:slime_ball",
 	"order": 2,
-	"impact": 1,
+	"impact": 2,
 	"name": "Dten5",
-	"description": "One heckin' Filipino boi."
-}
+	"description": "LUFFO FROM THIRTEEN AND A HALF PIECE!?!?1!??!1`1//1/1/?",
+	"upgrades": [
+		{
+			"condition": "minecraft:nether/all_potions",
+			"origin": "superorigins:dten5_skilled",
+			"announcement": "You have trained yourself enough to gain a new ability, try increasing your size."
+		}
+	]	
+} 

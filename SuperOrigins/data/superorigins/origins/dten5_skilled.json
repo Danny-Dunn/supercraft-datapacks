@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"superorigins:dten5_resource_2",
+		"superorigins:dten5_scale_change_2",
+		"superorigins:dten5_scale_other_2",
+		"superorigins:dten5_reach_change_2",
+		"superorigins:dten5_second_gear",
+		"superorigins:cursed"
+	],
+	"icon": "minecraft:slime_ball",
+	"order": 2,
+	"impact": 3,
+	"name": "Dten5",
+	"description": "LUFFO FROM THIRTEEN AND A HALF PIECE LEARNED NEW SKILL!?!?1!??!1`1//1/1/?",
+	"unchoosable": true
+} 

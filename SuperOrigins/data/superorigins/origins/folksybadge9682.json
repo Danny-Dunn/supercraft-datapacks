@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"superorigins:mining_experience",
+		"superorigins:deepslate_mining_experience",
+		"superorigins:terrible_warrior",
+		"superorigins:acrobatics",
+		"superorigins:folksybadge9682_height"
+	],
+	"icon": "minecraft:iron_axe",
+	"order": 5,
+	"impact": 2,
+	"name": "FolksyBadge9682",
+	"description": "A great lumberjack with some PLAID DRIP."
+}

@@ -1,9 +1,0 @@
-{
-  "type": "origins:modify_exhaustion",
-  "name": "Infinite Pizza I",
-  "description": "You have infinite pizza and cannot lose hunger.",
-  "modifier": {
-    "value": 2000,
-    "operation": "multiply_total"
-  }
-}

@@ -1,0 +1,26 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "up": {
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.ternary_active"
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "superorigins:dten5_resource_2",
+      "change": 1
+    }
+  },
+  "down": {
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.quaternary_active"
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "superorigins:dten5_resource_2",
+      "change": -1
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "type": "origins:multiple",
+  "name": "Second Gear",
+  "description": "By pressing your primary origins key, you can temporarily gain speed and strength, at the cost of half your health.",
+  "health_1": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:grant_power",
+      "power": "superorigins:dten5_second_gear_2",
+      "source": "dten5"
+    },
+    "cooldown": 800,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 8
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "health_2": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:delay",
+      "ticks": 200,
+      "action": {
+        "type": "origins:revoke_power",
+        "power": "superorigins:dten5_second_gear_2",
+        "source": "dten5"
+      }
+    },
+    "cooldown": 800,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "speed": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+          "effect": "minecraft:speed",
+          "duration": 200,
+          "amplifier": 2,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+      }
+    },
+    "cooldown": 800,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "strength": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+          "effect": "minecraft:strength",
+          "duration": 200,
+          "amplifier": 1,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+      }
+    },
+    "cooldown": 800,
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  }
+}

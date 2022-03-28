@@ -1,0 +1,37 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "resource": {
+    "type": "origins:resource",
+    "min": 1,
+    "max": 5,
+    "start_value": 1,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+      "bar_index": 16
+    }
+  },
+  "up": {
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.ternary_active"
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "superorigins:dten5_resource_resource",
+      "change": 1
+    }
+  },
+  "down": {
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.quaternary_active"
+    },
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "superorigins:dten5_resource_resource",
+      "change": -1
+    }
+  }
+}
