@@ -1,9 +1,0 @@
-{
-  "type": "origins:modify_jump",
-  "modifier": {
-    "value": -0.1,
-    "operation": "multiply_base"
-    },
-  "name": "Heavy Armour II",
-  "description": "Your heavy armour stops you from jumping as high as you normally would. (-10% Jump height)."
-}

@@ -1,9 +1,0 @@
-{
-  "type": "origins:multiple",
-  "name": "Small Mogus",
-  "description": "You are same height as an Among Us character, 3'6\" lmao.",
-  "modify_size": {
-	"type": "extraorigins:modify_size",
-	"scale": 0.535
-  }
-	}

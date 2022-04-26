@@ -1,9 +1,0 @@
-{
-    "type": "origins:modify_swim_speed",
-    "name": "Cursed",
-    "description": "Since you ate a devil fruit, the sea has cursed you, making you extremely slow in water.",
-    "modifier": {
-        "operation": "addition",
-        "value": -0.015
-    }
-}

@@ -1,9 +1,0 @@
-{
-  "type": "origins:modify_break_speed",
-  "name": "Mining Experience",
-  "description": "You are great at using tools like pickaxes and axes, allowing you to instantly mine stone and deepslate with an Efficiency V Netherite Pickaxe.",
-  "modifier": {
-      "operation": "multiply_total",
-      "value": 0.2865
-  }
-}

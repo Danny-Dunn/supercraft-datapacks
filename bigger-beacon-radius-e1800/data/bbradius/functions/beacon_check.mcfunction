@@ -1,1 +1,0 @@
-execute align xyz positioned ~0.5 ~0.5 ~0.5 unless entity @e[type=minecraft:armor_stand, distance=..0.2, tag=bbr.beacon] run summon minecraft:armor_stand ~ ~ ~ {Invulnerable:1b, NoGravity:1b, Marker:1b, Invisible:1b, Tags:["bbr.beacon"]}

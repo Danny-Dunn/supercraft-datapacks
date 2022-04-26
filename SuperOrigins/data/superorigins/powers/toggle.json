@@ -1,5 +1,0 @@
-{
-    "type": "origins:toggle",
-    "name": "Camera Switch",
-    "description": "Switch between Survival Mode and Spectator Mode by pressing your primary origins key."
-}

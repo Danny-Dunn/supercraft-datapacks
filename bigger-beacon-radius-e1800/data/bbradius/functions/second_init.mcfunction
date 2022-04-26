@@ -1,1 +1,0 @@
-execute if score #whose_turn quatro.dummy = #quatro_id bbr.dummy run function bbradius:second
