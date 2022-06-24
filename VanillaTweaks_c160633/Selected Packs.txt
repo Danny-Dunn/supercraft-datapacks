@@ -1,0 +1,26 @@
+Vanilla Tweaks Crafting Tweaks
+Version: 1.19
+Packs:
+	unpackable ice
+	unpackable nether wart
+	unpackable wool
+	craftable gravel
+	craftable coral blocks 2x2
+	craftable notch apples
+	craftable bundles leather
+	craftable blackstone
+	more trapdoors
+	more bark
+	more stairs
+	more bricks
+	back to blocks
+	double slabs
+	dropper to dispenser
+	rotten flesh to leather
+	charcoal to black dye
+	coal to black dye
+	sandstone dyeing
+	universal dyeing
+	straight to shapeless
+	blackstone cobblestone
+	powder to glass

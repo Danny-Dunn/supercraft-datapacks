@@ -1,6 +1,6 @@
 {
     "pack": {
         "description": "Makes spawners mineable with Silk Touch pickaxes",
-        "pack_format": 8
+        "pack_format": 9
     }
 }
