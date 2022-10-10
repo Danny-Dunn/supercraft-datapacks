@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "decalife:lose_life_8",
+        "decalife:revive"
+    ],
+    "icon": {
+        "item": "minecraft:totem_of_undying"
+    },
+    "description": "§4§l8 left.",
+    "order": 0,
+    "impact": 0,
+    "name": "Life VIII/X",
+    "unchoosable": true
+}

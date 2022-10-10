@@ -1,0 +1,20 @@
+﻿{
+    "type": "origins:multiple",
+    "hidden": true,
+    "flying": {
+        "type": "origins:creative_flight"
+    },
+    "noclip": {
+        "type": "origins:phasing",
+        "blacklist": true,
+        "render_type": "none",
+        "view_distance": 0,
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "decalife:unphasable"
+        },
+        "entity_condition": {
+            "type": "origins:creative_flying"
+        }
+    }
+}

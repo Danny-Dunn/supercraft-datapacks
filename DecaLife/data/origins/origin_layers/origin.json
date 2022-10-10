@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "origins": [
+    "decalife:ghost",
+    "decalife:life_1_origin",
+    "decalife:life_2_origin",
+    "decalife:life_3_origin",
+    "decalife:life_4_origin",
+    "decalife:life_5_origin",
+    "decalife:life_6_origin",
+    "decalife:life_7_origin",
+    "decalife:life_8_origin",
+    "decalife:life_9_origin",
+    "decalife:life_10_origin"
+  ]
+}

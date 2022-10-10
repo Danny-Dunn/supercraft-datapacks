@@ -1,0 +1,300 @@
+{
+    "0": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "execute at @s if entity @e[type=minecraft:player,distance=0.01..4] run scoreboard players get 1 num",
+                        "comparison": "==",
+                        "compare_to": 1,
+                        "permission_level": 4
+                    },
+                    "if_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "decalife:amogus_mob",
+                                "change": -999
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "decalife:amogus_player",
+                                "change": 2
+                            }
+                        ]
+                    },
+                    "else_action": {
+                        "type": "origins:if_else",
+                        "condition": {
+                            "type": "origins:command",
+                            "command": "execute at @s if entity @e[type=!minecraft:player,distance=0.01..2] run scoreboard players get 1 num",
+                            "comparison": "==",
+                            "compare_to": 1,
+                            "permission_level": 4
+                        },
+                        "if_action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:change_resource",
+                                    "resource": "decalife:amogus_mob",
+                                    "change": 2
+                                },
+                                {
+                                    "type": "origins:change_resource",
+                                    "resource": "decalife:amogus_player",
+                                    "change": -999
+                                }
+                            ]
+                        },
+                        "else_action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:change_resource",
+                                    "resource": "decalife:amogus_mob",
+                                    "change": -999
+                                },
+                                {
+                                    "type": "origins:change_resource",
+                                    "resource": "decalife:amogus_player",
+                                    "change": -999
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "decalife:amogus_timer",
+                    "change": 5
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        }
+    },
+    "3": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_timer",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "decalife:amogus_mob",
+                    "change": -999
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "decalife:amogus_player",
+                    "change": -999
+                }
+            ]
+        }
+    },
+    "6": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_mob",
+            "comparison": "==",
+            "compare_to": 50
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "execute as @s at @s run scoreboard players operation @e[distance=..4,sort=nearest,type=!player,type=!item,type=!experience_orb,type=!item_frame,type=!#arrows,type=!armor_stand,type=!snowball,type=!egg,type=!ender_pearl,type=!eye_of_ender,type=!#c:bosses,type=!elder_guardian,type=!warden,limit=1] amogus = G amogus",
+                "permission_level": 4
+            },
+            "ticks": 8
+        }
+    },
+    "name": "Possess",
+    "description": "Hold right click on mobs to possess and control them",
+    "hidden": false,
+    "type": "origins:multiple",
+    "6____": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_mob",
+            "comparison": "==",
+            "compare_to": 50
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "execute as @s at @s run scoreboard players operation @s amogus = G amogus",
+                "permission_level": 4
+            },
+            "ticks": 5
+        }
+    },
+    "sussy": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_player",
+            "comparison": "==",
+            "compare_to": 50
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "execute as @s at @s run scoreboard players operation @p[distance=..4,sort=nearest,limit=1,tag=!bell] amogus = G amogus",
+                "permission_level": 4
+            },
+            "ticks": 5
+        }
+    },
+    "6___": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_mob",
+            "comparison": "==",
+            "compare_to": 50
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "scoreboard players add G amogus 1",
+            "permission_level": 4
+        }
+    },
+    "lefu": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_player",
+            "comparison": "==",
+            "compare_to": 50
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "scoreboard players add G amogus 1",
+            "permission_level": 4
+        }
+    },
+    "player": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 50,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 22,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "decalife:amogus_player",
+                "comparison": "!=",
+                "compare_to": 0
+            }
+        }
+    },
+    "mob": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 50,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 7,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "decalife:amogus_mob",
+                "comparison": "!=",
+                "compare_to": 0
+            }
+        }
+    },
+    "3_": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "decalife:amogus_timer",
+                    "change": -1
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @s at @s as @e[distance=0.01..,type=!player] if score @s amogus = @p amogus as @p run function decalife:amogus",
+                    "permission_level": 4
+                }
+            ]
+        }
+    },
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "6_": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_player",
+            "comparison": "==",
+            "compare_to": 50
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s at @s run scoreboard players operation @e[distance=..2,sort=nearest,type=player,limit=1,tag=!amogus] amogus = G amogus",
+            "permission_level": 4
+        }
+    },
+    "6__": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "decalife:amogus_mob",
+            "comparison": "==",
+            "compare_to": 50
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "tag @s remove chill",
+                "permission_level": 4
+            },
+            "ticks": 10
+        }
+    }
+}
