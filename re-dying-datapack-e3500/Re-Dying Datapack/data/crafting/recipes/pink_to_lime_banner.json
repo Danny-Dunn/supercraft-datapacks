@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:lime_dye"
+        },
+        {
+            "item": "minecraft:pink_banner"
+        }
+    ],
+    "result": {
+        "item": "minecraft:lime_banner",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#R#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:light_gray_stained_glass_pane"
+        },
+        "R": {
+            "item": "minecraft:black_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_stained_glass_pane",
+        "count": 8
+    }
+}

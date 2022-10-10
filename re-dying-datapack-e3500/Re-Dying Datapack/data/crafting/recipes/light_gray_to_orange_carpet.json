@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#R#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:light_gray_carpet"
+        },
+        "R": {
+            "item": "minecraft:orange_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_carpet",
+        "count": 8
+    }
+}

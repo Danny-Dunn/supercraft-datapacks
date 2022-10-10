@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:yellow_dye"
+        },
+        {
+            "item": "minecraft:orange_banner"
+        }
+    ],
+    "result": {
+        "item": "minecraft:yellow_banner",
+        "count": 1
+    }
+}

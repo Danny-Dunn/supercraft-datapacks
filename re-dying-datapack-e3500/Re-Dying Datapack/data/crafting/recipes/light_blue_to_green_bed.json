@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:green_dye"
+        },
+        {
+            "item": "minecraft:light_blue_bed"
+        }
+    ],
+    "result": {
+        "item": "minecraft:green_bed",
+        "count": 1
+    }
+}
