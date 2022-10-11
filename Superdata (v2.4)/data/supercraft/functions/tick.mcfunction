@@ -1,0 +1,1 @@
+execute at @a run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 air replace ender_chest
