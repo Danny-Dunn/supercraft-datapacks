@@ -123,7 +123,7 @@
             "type": "origins:delay",
             "action": {
                 "type": "origins:execute_command",
-                "command": "execute as @s at @s run scoreboard players operation @e[distance=..4,sort=nearest,type=!player,type=!item,type=!experience_orb,type=!item_frame,type=!#arrows,type=!armor_stand,type=!snowball,type=!egg,type=!ender_pearl,type=!eye_of_ender,type=!#c:bosses,type=!elder_guardian,type=!warden,limit=1] amogus = G amogus",
+                "command": "execute as @s at @s run scoreboard players operation @e[distance=..4,sort=nearest,type=!player,type=!item,type=!experience_orb,type=!item_frame,type=!#arrows,type=!armor_stand,type=!snowball,type=!egg,type=!ender_pearl,type=!eye_of_ender,type=!#c:bosses,type=!elder_guardian,type=!warden,nbt={Tame:0},limit=1] amogus = G amogus",
                 "permission_level": 4
             },
             "ticks": 8
